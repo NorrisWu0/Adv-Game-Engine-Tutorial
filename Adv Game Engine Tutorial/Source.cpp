@@ -192,6 +192,7 @@ int main() {
 		glClearColor(1, 1, 1, 1);
 		// Clear Screen
 		glClear(GL_COLOR_BUFFER_BIT);
+		#pragma endregion
 
 		#pragma region Drawing Vertices
 		glUseProgram(shaderProgramID);
